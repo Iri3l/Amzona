@@ -1,5 +1,28 @@
 {
   "dependencies": {
+    "expres": "0.0.5",
+    "express": "^4.17.1",
     "react-router-dom": "^5.2.0"
-  }
+  },
+  "name": "amzona",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "start":"nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iri3l/Amzona.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Iri3l/Amzona/issues"
+  },
+  "homepage": "https://github.com/Iri3l/Amzona#readme",
+  "description": ""
 }
